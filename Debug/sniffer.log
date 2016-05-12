@@ -1,0 +1,22 @@
+﻿生成启动时间为 2016/5/12 14:53:10。
+     1>项目“D:\buaa\3junior2\网络\sniffer\sniffer\sniffer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013EX\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D HAVE_REMOTE /D WPCAP /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sniffer.cpp
+         sniffer.cpp
+     1>d:\buaa\3junior2\网络\sniffer\sniffer\sniffer.cpp(1): warning C4005: “HAVE_REMOTE”: 宏重定义
+                 命令行参数: 参见前面的“HAVE_REMOTE”定义
+     1>d:\buaa\3junior2\网络\sniffer\sniffer\sniffer.cpp(107): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013ex\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>d:\buaa\3junior2\网络\sniffer\sniffer\sniffer.cpp(125): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013ex\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>d:\buaa\3junior2\网络\sniffer\sniffer\sniffer.cpp(217): warning C4101: “ip_len”: 未引用的局部变量
+     1>d:\buaa\3junior2\网络\sniffer\sniffer\sniffer.cpp(218): warning C4101: “sport”: 未引用的局部变量
+     1>d:\buaa\3junior2\网络\sniffer\sniffer\sniffer.cpp(218): warning C4101: “dport”: 未引用的局部变量
+       Link:
+         D:\VS2013EX\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\sniffer.exe" /INCREMENTAL /NOLOGO wpcap.lib ws2_32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\sniffer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\sniffer.lib" /MACHINE:X86 /SAFESEH .\Debug\sniffer.obj
+         sniffer.vcxproj -> D:\buaa\3junior2\网络\sniffer\sniffer\.\Debug\sniffer.exe
+     1>已完成生成项目“D:\buaa\3junior2\网络\sniffer\sniffer\sniffer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86
